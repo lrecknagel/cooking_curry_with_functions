@@ -1,0 +1,19 @@
+{
+  "name": "presentation_fjs",
+  "private": true,
+  "repository": "git@github.com:lrecknagel/presentation_fjs.git",
+  "author": "Lucas Recknagel <lucas91@me.com>",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.5",
+    "@slidev/theme-apple-basic": "^0.20.0"
+  },
+  "devDependencies": {
+    "@iconify-json/fa": "^1.1.4",
+    "@iconify-json/logos": "^1.1.23"
+  }
+}
